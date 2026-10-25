@@ -7,23 +7,21 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "render-build": "npm install && npm run build && cd eduapi && npm install",
+    "render-build": "npm install --include=dev && npm run build && cd eduapi && npm install",
     "start": "node eduapi/server.js"
   },
   "dependencies": {
     "@react-three/drei": "^10.7.8",
     "@react-three/fiber": "^9.7.0",
+    "@tailwindcss/vite": "^4.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
     "framer-motion": "^13.1.0",
     "lucide-react": "^1.17.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "react-router-dom": "^7.18.3",
-    "three": "^0.185.1"
-  },
-  "devDependencies": {
-    "@tailwindcss/vite": "^4.0.0",
-    "@vitejs/plugin-react": "^4.3.4",
     "tailwindcss": "^4.0.0",
+    "three": "^0.185.1",
     "vite": "^6.2.0"
   }
 }
