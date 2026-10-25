@@ -1,0 +1,36 @@
+/* ==========================================================================
+   GPA Brand Variables & Global Theme Settings
+   ========================================================================== */
+
+:root {
+  --gpa-red-primary: #DC2626;
+  --gpa-red-hover: #B91C1C;
+  --gpa-navy-dark: #00154D;
+  --gpa-navy-light: #0A2570;
+  --gpa-accent-gold: #F59E0B;
+  --gpa-bg-light: #F8FAFC;
+  --gpa-bg-dark: #020617;
+  --gpa-card-light: #FFFFFF;
+  --gpa-card-dark: #0F172A;
+  --gpa-border-light: rgba(226, 232, 240, 0.8);
+  --gpa-border-dark: rgba(30, 41, 59, 0.8);
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(156, 163, 175, 0.5);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(220, 38, 38, 0.8);
+}

@@ -1,0 +1,12 @@
+/* ==========================================================================
+   Dashboard, Metrics Cards & Table Views
+   ========================================================================== */
+
+.dashboard-card-hover {
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.dashboard-card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08);
+}

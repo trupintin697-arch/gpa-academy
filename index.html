@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GPA - Gyan Prapti Academy | Premier Exam Prep Portal</title>
+    <meta
+      name="description"
+      content="GPA is a modern Indian edtech platform for banking, SSC, railway, and UPSC CSAT preparation."
+    />
+    <link rel="icon" type="image/svg+xml" href="/gpa-emblem.svg" />
+    <link rel="shortcut icon" href="/gpa-emblem.svg" />
+    <link rel="apple-touch-icon" href="/gpa-emblem.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Geist+Mono:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      try {
+        var theme = localStorage.getItem('gpa_theme');
+        if (theme === 'dark') {
+          document.documentElement.classList.add('dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
+      } catch (e) {}
+    </script>
+  </head>
+  <body class="min-h-full bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 selection:bg-red-500 selection:text-white transition-colors duration-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

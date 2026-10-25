@@ -1,0 +1,18 @@
+/* ==========================================================================
+   Hero Section & 3D WebGL Canvas Styles
+   ========================================================================== */
+
+.hero-radial-glow-red {
+  background: radial-gradient(circle, rgba(220, 38, 38, 0.15) 0%, rgba(220, 38, 38, 0) 70%);
+  filter: blur(120px);
+}
+
+.hero-radial-glow-blue {
+  background: radial-gradient(circle, rgba(0, 21, 77, 0.2) 0%, rgba(0, 21, 77, 0) 70%);
+  filter: blur(120px);
+}
+
+.hero-3d-canvas-container {
+  overflow: visible;
+  pointer-events: auto;
+}

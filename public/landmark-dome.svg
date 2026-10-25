@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 240" fill="none">
+  <!-- Dome top spire -->
+  <line x1="250" y1="10" x2="250" y2="35" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="250" cy="12" r="3" fill="currentColor"/>
+  <!-- Mini flag on spire -->
+  <path d="M250 15 L264 20 L250 25 Z" fill="currentColor" fill-opacity="0.8"/>
+  <path d="M242 35 H258 V40 H242 Z" fill="currentColor"/>
+  <!-- Main High Dome -->
+  <path d="M200 85 C200 45 230 38 250 38 C270 38 300 45 300 85 Z" fill="currentColor" fill-opacity="0.25" stroke="currentColor" stroke-width="1.8"/>
+  <!-- Dome ribs -->
+  <path d="M250 38 V85" stroke="currentColor" stroke-width="1.2"/>
+  <path d="M250 38 C265 48 278 65 285 85" stroke="currentColor" stroke-width="1.2"/>
+  <path d="M250 38 C235 48 222 65 215 85" stroke="currentColor" stroke-width="1.2"/>
+  <path d="M250 38 C278 52 294 68 298 85" stroke="currentColor" stroke-width="1"/>
+  <path d="M250 38 C222 52 206 68 202 85" stroke="currentColor" stroke-width="1"/>
+  <!-- Dome drum / arcade -->
+  <rect x="195" y="85" width="110" height="24" rx="2" fill="currentColor" fill-opacity="0.3" stroke="currentColor" stroke-width="1.5"/>
+  <!-- Drum windows -->
+  <circle cx="212" cy="97" r="4" fill="currentColor" fill-opacity="0.7"/>
+  <circle cx="228" cy="97" r="4" fill="currentColor" fill-opacity="0.7"/>
+  <circle cx="250" cy="97" r="4" fill="currentColor" fill-opacity="0.7"/>
+  <circle cx="272" cy="97" r="4" fill="currentColor" fill-opacity="0.7"/>
+  <circle cx="288" cy="97" r="4" fill="currentColor" fill-opacity="0.7"/>
+  <!-- Central pediment / entablature -->
+  <polygon points="250,110 180,128 320,128" fill="currentColor" fill-opacity="0.35" stroke="currentColor" stroke-width="1.5"/>
+  <rect x="175" y="128" width="150" height="8" fill="currentColor" fill-opacity="0.4"/>
+  <!-- Grand Columns -->
+  <g stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+    <line x1="188" y1="136" x2="188" y2="190"/>
+    <line x1="202" y1="136" x2="202" y2="190"/>
+    <line x1="216" y1="136" x2="216" y2="190"/>
+    <line x1="230" y1="136" x2="230" y2="190"/>
+    <line x1="244" y1="136" x2="244" y2="190"/>
+    <line x1="256" y1="136" x2="256" y2="190"/>
+    <line x1="270" y1="136" x2="270" y2="190"/>
+    <line x1="284" y1="136" x2="284" y2="190"/>
+    <line x1="298" y1="136" x2="298" y2="190"/>
+    <line x1="312" y1="136" x2="312" y2="190"/>
+  </g>
+  <!-- Side wings & towers -->
+  <path d="M120 140 H175 V190 H120 Z" fill="currentColor" fill-opacity="0.2" stroke="currentColor" stroke-width="1.2"/>
+  <path d="M325 140 H380 V190 H325 Z" fill="currentColor" fill-opacity="0.2" stroke="currentColor" stroke-width="1.2"/>
+  <!-- Left mini dome -->
+  <path d="M135 140 C135 122 145 118 150 118 C155 118 165 122 165 140 Z" fill="currentColor" fill-opacity="0.25" stroke="currentColor" stroke-width="1.2"/>
+  <!-- Right mini dome -->
+  <path d="M335 140 C335 122 345 118 350 118 C355 118 365 122 365 140 Z" fill="currentColor" fill-opacity="0.25" stroke="currentColor" stroke-width="1.2"/>
+  <!-- Base podium / steps -->
+  <rect x="70" y="190" width="360" height="8" rx="1" fill="currentColor" fill-opacity="0.4"/>
+  <rect x="50" y="198" width="400" height="8" rx="1" fill="currentColor" fill-opacity="0.35"/>
+  <rect x="30" y="206" width="440" height="10" rx="1" fill="currentColor" fill-opacity="0.3"/>
+  <rect x="10" y="216" width="480" height="14" rx="2" fill="currentColor" fill-opacity="0.25"/>
+</svg>

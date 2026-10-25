@@ -1,0 +1,15 @@
+/* ==========================================================================
+   120-Minute CBT Mock Exam Hall & Webcam Proctoring Overlay
+   ========================================================================== */
+
+.cbt-question-palette-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(36px, 1fr));
+  gap: 6px;
+}
+
+.cbt-proctor-pip {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+}

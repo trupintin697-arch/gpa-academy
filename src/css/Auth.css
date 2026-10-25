@@ -1,0 +1,19 @@
+/* ==========================================================================
+   Interactive 6-Digit OTP & Authentication Styles
+   ========================================================================== */
+
+.otp-digit-box {
+  width: 3rem;
+  height: 3.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+  border-radius: 0.75rem;
+  transition: all 0.15s ease-in-out;
+}
+
+.otp-digit-box:focus {
+  outline: none;
+  border-color: #DC2626;
+  box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.2);
+}
